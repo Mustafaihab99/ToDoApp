@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+  height:95vh;
+  background-color:#000000d4;
+  overflow: hidden;
+}
+.btns:hover{
+    background-color: rgba(245, 241, 241, 0.773) !important;
+}
+.flow{
+    transition: .5s all !important;
+}
+.flow:hover{
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.942);
+}
+.toggle{
+    background-color: black;
+}
+.title{
+    font-size: 22px !important;
+}
+.desc{
+    font-size: 12px !important;
+}
+@media screen and (max-width:400px){
+    .container{
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+    .btns{
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 10px;
+    }
+    .css-1qb8o-MuiToggleButtonGroup-root .MuiToggleButtonGroup-grouped{
+        font-size: 10px !important;
+    }
+    .title{
+        font-size: 17px !important;
+    }
+    .desc{
+        font-size: 8px !important;
+    }
+}
